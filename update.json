@@ -2,9 +2,11 @@
   "android":{
    "version":"1.0",
    "url":"",
+    "force":true
   },
   "ios":{
    "version":"2.0",
+   "force":true 
   },
   "description":"xxxxx"
 }
