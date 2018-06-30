@@ -91,6 +91,7 @@ function handle(path="data") {
       return ob;
   });
   fs.writeFileSync(p.resolve(path,"index.json"),  JSON.stringify(home,null,2));
+  fs.writeFileSync(p.resolve("release",path,"index.json"),  JSON.stringify(home,null,2));
 }
 
 handle();
