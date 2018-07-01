@@ -3,7 +3,7 @@
     "version":"1.0",
     "url":"",
     "storeUrl":"",
-    "force":false,
+    "force":false
   },
   "ios":{
     "version":"2.0",
