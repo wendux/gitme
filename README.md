@@ -1,6 +1,3 @@
----
-typora-root-url: ./imgs
----
 
 # Gitme
 
@@ -8,4 +5,4 @@ Gitme为[Flutter中文网(https://flutterchina.club)](https://flutterchina.club)
 
 应用下载：
 
-![](/qr_download.png)
+![](./imgs/qr_download.png)
