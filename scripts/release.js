@@ -3,6 +3,7 @@ var fs = require("fs")
 var p = require("path")
 var log = console.log;
 var utils= require("./utils")
+require("shelljs/global")
 
 
 function getItems(path, isDirectory = true) {
@@ -92,6 +93,9 @@ function handle(path="data") {
   });
   fs.writeFileSync(p.resolve(path,"index.json"),  JSON.stringify(home,null,2));
   fs.writeFileSync(p.resolve("release",path,"index.json"),  JSON.stringify(home));
+  cp('-r',"en_US/.",".en_US")
+  cp('-r',"zh_CH/.","en_US")
+  cp('-r',".en_US/.","en_US")
 }
 
 handle();
