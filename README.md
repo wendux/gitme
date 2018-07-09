@@ -1,5 +1,4 @@
 
-![](./imgs/60.png)
 ![](./imgs/180bai.png)
 # Gitme
 
